@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+.menu {
+  list-style-type: none;
+  padding: 0;
+}
+.menu li {
+  margin: 10px 0;
+  cursor: pointer;
+  color: rgb(245, 93, 4);
+}
+.submenu {
+  list-style-type: none;
+  padding-left: 20px;
+  display: none;
+}
+.submenu li {
+  margin: 5px 0;
+  color: rgb(8, 177, 234);
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.toggle {
+  margin-left: 10px;
+  font-size: 18px;
+}
